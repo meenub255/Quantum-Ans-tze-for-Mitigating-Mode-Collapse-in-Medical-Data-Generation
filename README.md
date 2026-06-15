@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Quantum-Ansätze for Mitigating Mode Collapse in Medical Data Generation
 
 ## Overview
@@ -18,8 +17,10 @@ This project demonstrates the application of quantum machine learning techniques
 ### Visualizations
 - `quantum_cardio_stress_mapping_final.png` - Final publication-ready visualization with statistical metrics
 - `quantum_cardio_stress_mapping_optimized.png` - Optimized visualization with enhanced formatting
+- `quantum_cardio_stress_mapping_version1.png` - Initial visualization showing mode collapse challenges
 - `gan_framework_comparison.png` - Comparative analysis between quantum and classical GANs
 - `quantum_gan_circuit.png` - Circuit diagram of the quantum generator architecture
+- `qgan_distribution.png` - Distribution mapping visualization
 
 ### Documentation
 - `quantum_circuit_architecture.txt` - Textual representation of the quantum circuit topology
@@ -128,13 +129,13 @@ The quantum GAN implementations demonstrate:
 
 ## Results and Discussions
 
-![qgan_distribution](D:\quantum\qgan_distribution.png)
+![qgan_distribution](qgan_distribution.png)
 
 Looking at the chart, your Real Data (blue cluster) is tightly concentrated around $(0.6, 0.4)$, while your Generated Quantum Data (red dots) is widely distributed across the feature space, with a noticeable density beginning to migrate toward that blue target zone.
 
 In generative AI terminology, your quantum generator is successfully exploring the high-dimensional Hilbert space (preventing mode collapse) and is actively learning the mapping, though it needs a bit more training or circuit depth to collapse tightly onto the target distribution.
 
-![quantum_cardio_stress_mapping_version1](D:\quantum\quantum_cardio_stress_mapping_version1.png)
+![quantum_cardio_stress_mapping_version1](quantum_cardio_stress_mapping_version1.png)
 
 Notice how the Classical Baseline Model (dark blue crosses) completely collapsed into a strict L-shaped line at the bottom-right boundary. It completely missed the variance of the true clinical data.
 
@@ -148,7 +149,7 @@ However, looking at the left panel (Loss Convergence), the training is a bit uns
 
 - **Enhance Quantum Expressibility:** Introducing a parameterized $Z$-rotation (RZ) alongside the $X$ and $Y$ rotations gives your circuit full control over the Bloch sphere, allowing it to generate data curves with much higher precision.
 
-![quantum_cardio_stress_mapping_optimized](D:\quantum\quantum_cardio_stress_mapping_optimized.png)
+![quantum_cardio_stress_mapping_optimized](quantum_cardio_stress_mapping_optimized.png)
 
 True Cluster Penetration: Look at how your cyan dots (QGAN Synthesized Vitals) are no longer just migrating toward the target; they have actually penetrated and blanketed the dense center of the grey cluster (Real Patient Stress States). It is capturing the exact biological variance of high-risk stress profiles with incredible accuracy.
 
@@ -156,13 +157,13 @@ The Defeated Classical Baseline: Your classical model (dark blue crosses) is sti
 
 Stabilized Loss Profile: On the left, the loss curves are much better behaved. The sudden, massive, erratic spikes from the first run have been smoothed out into a controlled adversarial journey, thanks to the label smoothing and balanced learning rates.
 
-![quantum_cardio_stress_mapping_final](D:\quantum\quantum_cardio_stress_mapping_final.png)
+![quantum_cardio_stress_mapping_final](quantum_cardio_stress_mapping_final.png)
 
 Your QGAN Vitals achieved a lower Wasserstein Distance ($WD = 0.247$) compared to the Classical Baseline ($WD = 0.265$). More importantly, it completely highlights the quantum advantage visually—while the classical model suffered from severe mode collapse (getting stuck on those straight boundary walls), your Parameterized Quantum Circuit successfully captured the actual cluster topology of the real patient stress states.
 
 ## Quantum Circuit Architecture Analysis
 
-![quantum_gan_circuit](D:\quantum\quantum_gan_circuit.png)
+![quantum_gan_circuit](quantum_gan_circuit.png)
 
 ### Breakdown of the Quantum Notation & Symbols:
 
@@ -232,6 +233,3 @@ quantum/ ├── quantum_cardio_gan.py                    # Basic QGAN impleme
 ├── quantum_circuit_architecture.txt              # Circuit topology documentation
 └── README.md                                     # This documentation
 ```
-=======
-# Quantum-Ans-tze-for-Mitigating-Mode-Collapse-in-Medical-Data-Generation
->>>>>>> 06c6a34e3fb16756634a5dca27a7e95906a3ab4a
