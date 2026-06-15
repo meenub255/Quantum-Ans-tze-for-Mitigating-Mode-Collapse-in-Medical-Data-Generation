@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Quantum-Ansätze for Mitigating Mode Collapse in Medical Data Generation
 
 ## Overview
@@ -231,3 +232,6 @@ quantum/ ├── quantum_cardio_gan.py                    # Basic QGAN impleme
 ├── quantum_circuit_architecture.txt              # Circuit topology documentation
 └── README.md                                     # This documentation
 ```
+=======
+# Quantum-Ans-tze-for-Mitigating-Mode-Collapse-in-Medical-Data-Generation
+>>>>>>> 06c6a34e3fb16756634a5dca27a7e95906a3ab4a
