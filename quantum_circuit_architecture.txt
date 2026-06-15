@@ -1,0 +1,5 @@
+0: ─╭AngleEmbedding(M0)──RX(-0.02)─╭●──RY(0.04)─╭X─┤  <Z>
+1: ─╰AngleEmbedding(M0)──RY(-0.05)─╰X──RX(0.01)─╰●─┤  <Z>
+
+M0 = 
+tensor([-0.3994,  1.4078])
