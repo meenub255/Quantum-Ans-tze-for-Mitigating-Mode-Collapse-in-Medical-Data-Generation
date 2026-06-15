@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Quantum-Ansätze for Mitigating Mode Collapse in Medical Data Generation
 
 ## Overview
