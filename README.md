@@ -1,5 +1,21 @@
 # Quantum-Ansätze for Mitigating Mode Collapse in Medical Data Generation
 
+## Files Structure
+
+```
+quantum/ ├── quantum_cardio_gan.py                    # Basic QGAN implementation
+├── quantum_cardio_final.py                       # Enhanced QGAN with validation
+├── quantum_gan.py                                # Simplified QGAN for comparison
+├── draw_circuit.py                               # Circuit visualization script
+├── requirements.txt                              # Python dependencies
+├── quantum_cardio_stress_mapping_final.png       # Final visualization
+├── quantum_cardio_stress_mapping_optimized.png   # Optimized visualization
+├── gan_framework_comparison.png                  # Framework comparison
+├── quantum_gan_circuit.png                       # Circuit diagram
+├── quantum_circuit_architecture.txt              # Circuit topology documentation
+└── README.md                                     # This documentation
+```
+
 ## Overview
 
 This project demonstrates the application of quantum machine learning techniques to mitigate mode collapse in medical data generation, specifically focusing on cardiovascular telemetry synthesis using Hybrid Quantum-Classical Generative Adversarial Networks (QGANs).
@@ -217,19 +233,3 @@ This project contributes to the field of quantum machine learning by:
 - Providing novel techniques for mitigating mode collapse in GANs
 - Establishing a framework for quantum advantage validation in healthcare AI
 - Generating reproducible research artifacts for further investigation
-
-## Files Structure
-
-```
-quantum/ ├── quantum_cardio_gan.py                    # Basic QGAN implementation
-├── quantum_cardio_final.py                       # Enhanced QGAN with validation
-├── quantum_gan.py                                # Simplified QGAN for comparison
-├── draw_circuit.py                               # Circuit visualization script
-├── requirements.txt                              # Python dependencies
-├── quantum_cardio_stress_mapping_final.png       # Final visualization
-├── quantum_cardio_stress_mapping_optimized.png   # Optimized visualization
-├── gan_framework_comparison.png                  # Framework comparison
-├── quantum_gan_circuit.png                       # Circuit diagram
-├── quantum_circuit_architecture.txt              # Circuit topology documentation
-└── README.md                                     # This documentation
-```
